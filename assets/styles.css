@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+    color: white;
+    max-width: 880 px;
+    margin: 0 auto;
+    }
+
+.contacts {
+    background-color: grey;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    }
+
+.contact_bg {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    }
