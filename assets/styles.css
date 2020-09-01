@@ -17,8 +17,8 @@ body {
 }
 
 .parent {
-    display: flex;
+    height: 990 px;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
