@@ -1,0 +1,56 @@
+.body {
+    background-color: silver;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.div1 { 
+    grid-area: 1 / 7 / 9 / 13;
+    background-color: cadetblue;
+}
+
+.div2 { 
+    grid-area: 1 / 1 / 9 / 7;
+    background-color: silver;
+}
+.div3 { 
+    grid-area: 6 / 11 / 9 / 13;
+    background-color: slategrey;
+}
+.div4 {
+    grid-area: 4 / 8 / 6 / 13;
+    background-color: teal;
+}
+.div5 {
+    grid-area: 6 / 10 / 8 / 11;
+    background-color: violet;
+}
+.div6 {
+    grid-area: 7 / 7 / 9 / 10;
+    background-color: thistle;
+}
+.div7 {
+    grid-area: 2 / 9 / 4 / 11;
+    background-color: wheat;
+}
+.div8 {
+    grid-area: 2 / 11 / 3 / 12;
+    background-color: yellow;
+}
