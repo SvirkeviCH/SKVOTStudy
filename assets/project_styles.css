@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    width: 1440px;
+    height: 1020px;
+    background: #E5E5E5;
+}
+
+.contact {
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 1295px;
+    top: 87px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    line-height: 37px;
+    color: white;
+}
+
+.about {
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 41px;
+    top: 88px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    line-height: 37px;
+    color: black;
+}
+
+.welcome_text {
+    position: absolute;
+    width: 779px;
+    height: 170px;
+    left: 35px;
+    top: 370px;
+    font-family: 'Monda', sans-serif;
+    font-size: 125px;
+    line-height: 204px;
+    color: #34515E;
+}
+
+.portfolio {
+    position: absolute;
+    width: 308px;
+    height: 75px;
+    left: 836px;
+    top: 595px;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    line-height: 59px;
+    color: white;
+}
+
+.parent {
+    position: absolute;
+    width: 715px;
+    height: 1024px;
+    left: 725px;
+    background: #34515E;
+}
+
+.child1 {
+    position: absolute;
+    left: 227px;
+    top: 143px;
+}
+
+.child2 {
+    position: absolute;
+    left: 457px;
+    top: 143px;
+}
+
+.child3 {
+    position: absolute;
+    left: 112px;
+    top: 373px;
+}
+
+.child4 {
+    position: absolute;
+    left: 457px;
+    top: 530px;
+}
+
+.child5 {
+    position: absolute;
+    left: 342px;
+    top: 530px;
+}
+
+.child6 {
+    position: absolute;
+    left: 0px;
+    top: 743px;
+}
