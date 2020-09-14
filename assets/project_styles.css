@@ -1,11 +1,53 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
 body {
     display: flex;
-    width: 1440px;
-    height: 1020px;
+    width: 1024px;
+    height: 100vh;
     background: #E5E5E5;
 }
 
-.contact {
+header {
+    width: 100vw;
+    height: 100px;
+    padding: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: #34515E;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #34515E;
+    text-decoration: none;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none ;
+}
+.nav_list > li + li {
+    margin-left: 20px;
+}
+
+/*.contact {
     position: absolute;
     width: 108px;
     height: 35px;
@@ -15,9 +57,9 @@ body {
     font-size: 25px;
     line-height: 37px;
     color: white;
-}
+}*/
 
-.about {
+/*.about {
     position: absolute;
     width: 108px;
     height: 35px;
@@ -26,18 +68,30 @@ body {
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     line-height: 37px;
-    color: black;
-}
+    color: #34515E;
+}*/
 
 .welcome_text {
     position: absolute;
     width: 779px;
     height: 170px;
     left: 35px;
-    top: 370px;
+    top: 400px;
     font-family: 'Monda', sans-serif;
     font-size: 125px;
     line-height: 204px;
+    color: #34515E;
+}
+
+.description {
+    position: absolute;
+    width: 517px;
+    height: 283px;
+    left: 73px;
+    top: 1895px;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    line-height: 59px;
     color: #34515E;
 }
 
@@ -56,43 +110,115 @@ body {
 .parent {
     position: absolute;
     width: 715px;
-    height: 1024px;
+    height: 4076px;
     left: 725px;
-    background: #34515E;
+    background: black;
 }
 
 .child1 {
     position: absolute;
-    left: 227px;
-    top: 143px;
+    left: 343px;
+    top: 167px;
 }
 
 .child2 {
     position: absolute;
-    left: 457px;
-    top: 143px;
+    left: 229px;
+    top: 298px;
 }
 
 .child3 {
     position: absolute;
-    left: 112px;
-    top: 373px;
+    left: 343px;
+    top: 400px;
 }
 
 .child4 {
     position: absolute;
-    left: 457px;
-    top: 530px;
+    left: 0px;
+    top: 743px;
 }
 
 .child5 {
     position: absolute;
-    left: 342px;
-    top: 530px;
+    left: 343px;
+    top: 1006px;
 }
 
 .child6 {
     position: absolute;
-    left: 0px;
-    top: 743px;
+    left: 115px;
+    top: 927px;
+}
+
+.child7 {
+    position: absolute;
+    left: 418px;
+    top: 1251px;
+}
+
+.child8 {
+    position: absolute;
+    left: 418px;
+    top: 1518px;
+}
+
+.child9 {
+    position: absolute;
+    left: 74px;
+    top: 1403px;
+}
+
+.child10 {
+    position: absolute;
+    left: 27px;
+    top: 2007px;
+}
+
+.child11 {
+    position: absolute;
+    left: 316px;
+    top: 2236px;
+}
+
+.child12 {
+    position: absolute;
+    left: 27px;
+    top: 2236px;
+}
+
+.child13 {
+    position: absolute;
+    left: 89px;
+    top: 2532px;
+}
+
+.child14 {
+    position: absolute;
+    left: 375px;
+    top: 2755px;
+}
+
+.child15 {
+    position: absolute;
+    left: 105px;
+    top: 2925px;
+}
+
+.child16 {
+    position: absolute;
+    left: 375px;
+    top: 3273px;
+}
+
+.child17 {
+    position: absolute;
+    left: 63px;
+    top: 3323px;
+}
+
+.child18 {
+    position: absolute;
+    left: 63px;
+    top: 3584px;
 }

@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome_text {
+    position: absolute;
+    width: 779px;
+    height: 170px;
+    left: 36px;
+    top: 320px;
+    font-family: 'Monda', sans-serif;
+    font-size: 125px;
+    line-height: 204px;
+    color: #34515E;
+}
+
+.parent {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 725px;
+    background: black;
+}
+
+.child {
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
