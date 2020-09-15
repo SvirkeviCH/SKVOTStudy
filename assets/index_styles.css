@@ -1,34 +1,62 @@
-.child {
-    width: 50vw;
-    height: 50vh;
-    padding: 20 px;
-    display: block;
-    box-sizing: content-box;
-    align-items: flex-end;
-    justify-content: flex-end;
-    font-family: 'Space Mono', monospace;
-    text-align: center;
-    font-size: 50px;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-.parent {
+body {
     background-color: silver;
-    width: 100vw;
-    height: 100vh;
+    width: 1440px;
+    height: 1024px;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 
-.header {
-    background-color: black;
-    height: 200px;
-    width: 100vw;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 100px;
+.welcome_text {
+    position: absolute;
+    width: 779px;
+    height: 170px;
+    left: 36px;
+    top: 320px;
+    font-family: 'Monda', sans-serif;
+    font-size: 125px;
+    line-height: 204px;
+    color: #34515E;
+}
+
+.parent {
+    position: absolute;
     display: flex;
-    align-items: flex-start;
-    justify-items: start;
+    width: 720px;
+    height: 1024px;
+    left: 725px;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.child {
+    position: absolute;
+    width: 517px;
+    height: 283px;
+    left: 94px;
+    top: 363px;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 130px;
+    height: 122px;
+    left: 36px;
+    top: 860px;
+    background: #34515E;
 }

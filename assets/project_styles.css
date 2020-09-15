@@ -12,14 +12,14 @@ body {
     background: #E5E5E5;
 }
 
-header {
+/*header {
     width: 100vw;
     height: 100px;
     padding: 10px;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     color: #34515E;
-}
+}*/
 
 .nav_list {
     display: flex;
@@ -47,29 +47,39 @@ li {
     margin-left: 20px;
 }
 
-/*.contact {
+.home {
+    position: absolute;
+    width: 130px;
+    height: 122px;
+    left: 36px;
+    top: 860px;
+    background: #34515E;
+}
+
+.contact {
     position: absolute;
     width: 108px;
     height: 35px;
-    left: 1295px;
-    top: 87px;
+    left: 650px;
+    top: 35px;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     line-height: 37px;
+    z-index: 10;
     color: white;
-}*/
+}
 
-/*.about {
+.about {
     position: absolute;
     width: 108px;
     height: 35px;
-    left: 41px;
-    top: 88px;
+    left: 17px;
+    top: 35px;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     line-height: 37px;
     color: #34515E;
-}*/
+}
 
 .welcome_text {
     position: absolute;
