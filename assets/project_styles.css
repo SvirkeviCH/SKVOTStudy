@@ -67,6 +67,7 @@ li {
     line-height: 37px;
     z-index: 10;
     color: white;
+    transition: all 0.3s ease-in-out 0.1s;
 }
 
 .about {
@@ -79,6 +80,7 @@ li {
     font-size: 25px;
     line-height: 37px;
     color: #34515E;
+    transition: all 0.3s ease-in-out 0.1s;
 }
 
 .welcome_text {
@@ -231,4 +233,12 @@ li {
     position: absolute;
     left: 63px;
     top: 3584px;
+}
+
+.contact:hover {
+    transform: translateX(-10px);
+}
+
+.about:hover {
+    transform: translateX(10px);
 }
