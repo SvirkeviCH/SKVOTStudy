@@ -6,8 +6,9 @@
 
 body {
     background-color: silver;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -15,7 +16,7 @@ body {
 }
 
 .welcome_text {
-    position: absolute;
+    position: relative;
     width: 779px;
     height: 170px;
     left: 36px;
@@ -27,10 +28,10 @@ body {
 }
 
 .parent {
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 720px;
-    height: 1024px;
+    width: 100vh;
+    height: 100vh;
     left: 725px;
     align-items: center;
     justify-content: center;
@@ -68,9 +69,47 @@ body {
 
 .footer {
     position: absolute;
-    width: 1440px;
-    height: 127px;
+    width: 100vw;
+    height: 100vh;
     left: 0px;
     top: 897px;
     background-color: #34515E;
+}
+
+.about {
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 17px;
+    top: 35px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    line-height: 37px;
+    color: #34515E;
+}
+
+.contact {
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 650px;
+    top: 35px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    line-height: 37px;
+    z-index: 10;
+    color: white;
+}
+
+@media (max-width: 1280) {
+    font-size: calc (10/1440*1202);
+    }
+}
+
+.about:hover {
+    transition: translate (-10px);
+}
+
+.contact:hover {
+    transition: translate (10px);
 }
