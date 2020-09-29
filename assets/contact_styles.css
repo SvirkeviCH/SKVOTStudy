@@ -100,16 +100,3 @@ body {
     z-index: 10;
     color: white;
 }
-
-@media (max-width: 1280) {
-    font-size: calc (10/1440*1202);
-    }
-}
-
-.about:hover {
-    transition: translate (-10px);
-}
-
-.contact:hover {
-    transition: translate (10px);
-}

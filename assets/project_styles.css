@@ -60,14 +60,14 @@ li {
     position: absolute;
     width: 108px;
     height: 35px;
-    left: 650px;
+    left: 640px;
     top: 35px;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     line-height: 37px;
     z-index: 10;
     color: white;
-    transition: all 0.3s ease-in-out 0.1s;
+    transition: 0.3s ease-in-out 0.1s;
 }
 
 .about {
@@ -80,7 +80,35 @@ li {
     font-size: 25px;
     line-height: 37px;
     color: #34515E;
-    transition: all 0.3s ease-in-out 0.1s;
+    transition: 0.3s ease-in-out 0.1s;
+}
+
+@media (max-width: 768px) {
+    .about {
+        font-size: 40px;
+    }
+
+    .contact {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about {
+        font-size: 60px;
+    }
+
+    .contact {
+        font-size: 60px;
+    }
+
+    .description {
+        font-size: 80px;
+    }
+
+    .portfolio {
+        font-size: 60px;
+    }
 }
 
 .welcome_text {
