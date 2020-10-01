@@ -7,8 +7,9 @@
 
 body {
     display: flex;
-    width: 1024px;
-    height: 100vh;
+    width: 100vw;
+    height: 4076px;
+    margin: 0 auto;
     background: #E5E5E5;
 }
 
@@ -21,7 +22,7 @@ body {
     color: #34515E;
 }*/
 
-.nav_list {
+/*.nav_list {
     display: flex;
     justify-content: space-between;
 }
@@ -38,11 +39,12 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-}
+}*/
 
 li {
-    list-style-type: none ;
+    list-style-type: string;
 }
+
 .nav_list > li + li {
     margin-left: 20px;
 }
@@ -60,7 +62,7 @@ li {
     position: absolute;
     width: 108px;
     height: 35px;
-    left: 640px;
+    left: 650px;
     top: 35px;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
@@ -90,24 +92,28 @@ li {
 
     .contact {
         font-size: 40px;
+        left: 617px;
+    }
+
+    li {
+        font-size: 60px;
+    }
+
+    P {
+        font-size: 50px;
     }
 }
 
 @media (max-width: 375px) {
     .about {
         font-size: 60px;
+        top: 20px;
     }
 
     .contact {
         font-size: 60px;
-    }
-
-    .description {
-        font-size: 80px;
-    }
-
-    .portfolio {
-        font-size: 60px;
+        top: 20px;
+        left: 573px;
     }
 }
 
@@ -116,16 +122,13 @@ li {
     width: 779px;
     height: 170px;
     left: 35px;
-    top: 400px;
-    font-family: 'Monda', sans-serif;
-    font-size: 125px;
-    line-height: 204px;
+    top: 595px;
     color: #34515E;
 }
 
 .description {
     position: absolute;
-    width: 517px;
+    width: 557px;
     height: 283px;
     left: 73px;
     top: 1895px;
@@ -137,7 +140,7 @@ li {
 
 .portfolio {
     position: absolute;
-    width: 308px;
+    width: 350px;
     height: 75px;
     left: 836px;
     top: 595px;
@@ -147,12 +150,19 @@ li {
     color: white;
 }
 
+@media (max-width: 786px) {
+    .portfolio {
+        left: 784px;
+    }
+}
+
 .parent {
     position: absolute;
+    padding-right: 40px;
     width: 715px;
     height: 4076px;
     left: 725px;
-    background: black;
+    background-color: black;
 }
 
 .child1 {
@@ -270,3 +280,11 @@ li {
 .about:hover {
     transform: translateX(10px);
 }
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 169px;
+    left: 0px;
+    top: 3907px;
+    background: #34515E;

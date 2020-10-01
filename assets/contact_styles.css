@@ -6,19 +6,16 @@
 
 body {
     background-color: silver;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+    width: 1440px;
+    height: 1024px;
     display: flex;
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
 }
 
 .welcome_text {
-    position: relative;
-    width: 779px;
-    height: 170px;
+    position: absolute;
+    width: 629px;
+    height: 169px;
     left: 36px;
     top: 33px;
     font-family: 'Monda', sans-serif;
@@ -28,25 +25,24 @@ body {
 }
 
 .parent {
-    position: relative;
-    display: flex;
-    width: 100vh;
-    height: 100vh;
+    position: absolute;
+    width: 720px;
+    height: 1024px;
     left: 725px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: black;
 }
 
 .child {
-    position: absolute;
-    width: 517px;
-    height: 283px;
-    left: 94px;
-    top: 150px;
+    width: 561px;
+    height: 608px;
+    left: 79px;
+    top: 368px; 
     font-family: 'Space Mono', monospace;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 
@@ -58,7 +54,7 @@ body {
     width: 130px;
     height: 122px;
     left: 36px;
-    top: 740px;
+    top: 733px;
     background-color: #34515E;
     transition: background-color ease 0.3s;
 }
@@ -69,34 +65,9 @@ body {
 
 .footer {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 1440px;
+    height: 127px;
     left: 0px;
     top: 897px;
     background-color: #34515E;
-}
-
-.about {
-    position: absolute;
-    width: 108px;
-    height: 35px;
-    left: 17px;
-    top: 35px;
-    font-family: 'Space Mono', monospace;
-    font-size: 25px;
-    line-height: 37px;
-    color: #34515E;
-}
-
-.contact {
-    position: absolute;
-    width: 108px;
-    height: 35px;
-    left: 650px;
-    top: 35px;
-    font-family: 'Space Mono', monospace;
-    font-size: 25px;
-    line-height: 37px;
-    z-index: 10;
-    color: white;
 }
