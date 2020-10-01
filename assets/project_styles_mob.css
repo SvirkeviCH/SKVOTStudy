@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    width: 375px;
+    height: 4324px;
+    background: #E5E5E5;
+}
+
+li {
+    list-style-type: string;
+}
+
+.nav_list > li + li {
+    margin-left: 20px;
+}
+
+.parent {
+    position: absolute;
+    top: 26.76%;
+    bottom: 64.57%;
+    background: #000000;
+}
+
+.welcome_text {
+    position: absolute;
+    left: 1.6%;
+    right: -6.67%;
+    top: 0.6%;
+    bottom: 95.23%;
+}
+
+.portfolio {
+    position: absolute;
+    width: 350px;
+    height: 75px;
+    left: 836px;
+    top: 595px;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    line-height: 59px;
+    color: white;
+}
+
+.description {
+    position: absolute;
+    width: 557px;
+    height: 283px;
+    left: 21px;
+    top: 1178px;
+}
+
+.parent_2 {
+    position: absolute;
+    left: 0%;
+    right: -588.8%;
+    top: 94.61%;
+    bottom: -3.28%;
+    background: #000000;
+}

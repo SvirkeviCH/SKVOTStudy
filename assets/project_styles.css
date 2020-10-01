@@ -140,14 +140,14 @@ li {
 
 .portfolio {
     position: absolute;
-    width: 350px;
+    width: 308px;
     height: 75px;
     left: 836px;
     top: 595px;
     font-family: 'Space Mono', monospace;
     font-size: 40px;
     line-height: 59px;
-    color: white;
+    color: #FFFFFF;
 }
 
 @media (max-width: 786px) {
@@ -288,3 +288,4 @@ li {
     left: 0px;
     top: 3907px;
     background: #34515E;
+}
